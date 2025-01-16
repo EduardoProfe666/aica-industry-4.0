@@ -19,6 +19,24 @@ transition: slide-left
 mdc: true
 ---
 
+<div class="background-container"></div>
+
+# <span class="fade-in">Industria 4.0 en los Laboratorios Farmacéuticos AICA+</span>
+
+<div class="text-xl text-gray-200 mt-4 fade-in">
+Casi Ing. Eduardo Alejandro Gonzalez Martell
+</div>
+
+<div class="abs-br m-6 text-xl fade-in">
+  <a href="https://github.com/EduardoProfe666/aica-industry-4.0" target="_blank" class="slidev-icon-btn">
+    <carbon:logo-github />
+  </a>
+</div>
+
+<footer style="color: #05d8f3; font-weight: bold;" class="fade-in abs-b m-6">
+  © 2025 <a href="https://www.aica.cu" target="_blank">AICA+</a>
+</footer>
+
 <style>
   .background-container {
     position: fixed;
@@ -26,7 +44,7 @@ mdc: true
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('/team.webp');
+    background-image: url('/aica-4.webp');
     background-size: cover;
     background-position: center;
     filter: blur(3px);
@@ -58,24 +76,6 @@ mdc: true
     -moz-text-fill-color: transparent;
   }
 </style>
-
-<div class="background-container"></div>
-
-# <span class="fade-in">Industria 4.0 en los Laboratorios Farmacéuticos AICA+</span>
-
-<div class="text-xl text-gray-200 mt-4 fade-in">
-Casi Ing. Eduardo Alejandro Gonzalez Martell
-</div>
-
-<div class="abs-br m-6 text-xl fade-in">
-  <a href="https://github.com/EduardoProfe666/aica-industry-4.0" target="_blank" class="slidev-icon-btn">
-    <carbon:logo-github />
-  </a>
-</div>
-
-<footer style="color: #05d8f3; font-weight: bold;" class="fade-in abs-b m-6">
-  © 2025 <a href="https://www.aica.cu" target="_blank">AICA+</a>
-</footer>
 
 ---
 transition: slide-up
@@ -373,6 +373,24 @@ transition: slide-right
   </div>
 </div>
 
+<div class="abs-br m-6 flex text-xl fade-in">
+  <a href="https://www.instagram.com/laboratorios_aica" target="_blank" class="slidev-icon-btn">
+    <carbon:logo-instagram />
+  </a>
+  <a href="https://twitter.com/AicaLaboratorio" target="_blank" class="slidev-icon-btn">
+    <carbon:logo-twitter />
+  </a>
+ <a href="https://www.facebook.com/Laboratorios.aica" target="_blank" class="slidev-icon-btn">
+    <carbon:logo-facebook />
+  </a>
+  <a href="https://www.youtube.com/channel/UCw6xSmlrNNkzFN3RkoYAaJA" target="_blank" class="slidev-icon-btn">
+    <carbon:logo-youtube />
+  </a>
+  <a href="https://www.aica.cu" target="_blank" class="slidev-icon-btn">
+    <carbon:flight-international />
+  </a>
+</div>
+
 <footer style="color: #05d8f3; font-weight: bold;" class="fade-in abs-b m-6 text-center">
   © 2025 <a href="https://www.aica.cu" target="_blank">AICA+</a>
 </footer>
@@ -505,4 +523,115 @@ h1 {
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
 }
+</style>
+
+---
+transition: slide-up
+layout: center
+class: text-center
+---
+
+# ¿Preguntas?
+
+<div
+  v-motion
+  :initial="{ scale: 0.8, opacity: 0 }"
+  :enter="{ scale: 1, opacity: 1 }"
+  class="mt-8"
+>
+  <div class="text-2xl text-[#0097a7] mb-4">
+    ¿Tienes alguna duda o comentario?
+  </div>
+
+  <div class="text-gray-600">
+    Dispara 🔫
+  </div>
+</div>
+
+<div
+  v-motion
+  :initial="{ y: 50, opacity: 0 }"
+  :enter="{ y: 0, opacity: 1, transition: { delay: 500 } }"
+  class="mt-12"
+>
+  <img
+    class="mx-auto w-32 opacity-50"
+    src="/question.webp"
+  />
+</div>
+
+<footer style="color: #05d8f3; font-weight: bold;" class="fade-in abs-b m-6 text-center">
+  © 2025 <a href="https://www.aica.cu" target="_blank">AICA+</a>
+</footer>
+
+<style>
+h1 {
+    background-color: #81dbff;
+    background-image: linear-gradient(45deg, #89effd 20%, #46c0ed 50%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+</style>
+
+---
+layout: center
+class: text-center
+transition: slide-left
+---
+<div class="background-container"></div>
+
+# <span class="fade-in">Gracias por su atención</span>
+
+<div class="abs-br m-6 text-xl fade-in">
+  <a href="https://github.com/EduardoProfe666/aica-industry-4.0" target="_blank" class="slidev-icon-btn">
+    <carbon:logo-github />
+  </a>
+</div>
+
+<footer style="color: #05d8f3; font-weight: bold;" class="fade-in abs-b m-6">
+  © 2025 <a href="https://www.aica.cu" target="_blank">AICA+</a>
+</footer>
+
+<style>
+  .background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/aica-3.webp');
+    background-size: cover;
+    background-position: center;
+    filter: blur(3px);
+    z-index: -1;
+  }
+
+  .fade-in {
+      animation: fadeIn 1s ease-in-out forwards;
+    }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  span {
+    background-color: #81dbff;
+    background-image: linear-gradient(45deg, #89effd 20%, #46c0ed 50%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-weight: bold;
+  }
 </style>
