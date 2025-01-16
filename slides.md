@@ -226,7 +226,7 @@ transition: slide-left
   >
     <div class="card-number">3</div>
     <h3>Visualizar</h3>
-    <p>¿Qué está pasando? <br>Monitoreo en tiempo real</p>
+    <p><span style="font-weight: bold;">¿Qué está pasando?</span> <br>Monitoreo en tiempo real</p>
   </div>
   </v-click>
 
@@ -239,7 +239,7 @@ transition: slide-left
   >
     <div class="card-number">4</div>
     <h3>Entender</h3>
-    <p>¿Por qué está pasando? <br>Generación de conocimiento a partir de datos</p>
+    <p><span style="font-weight: bold;">¿Por qué está pasando?</span> <br>Generación de conocimiento a partir de datos</p>
   </div>
   </v-click>
 
@@ -252,7 +252,7 @@ transition: slide-left
   >
     <div class="card-number">5</div>
     <h3>Predecir</h3>
-    <p>¿Qué pasará? <br>Capacidad predictiva en procesos productivos</p>
+    <p><span style="font-weight: bold;">¿Qué pasará?</span> <br>Capacidad predictiva en procesos productivos</p>
   </div>
   </v-click>
 
@@ -265,7 +265,7 @@ transition: slide-left
   >
     <div class="card-number">6</div>
     <h3>Optimizar</h3>
-    <p>¿Cómo puedo responder autónomamente? <br>Mejora continua y adaptativa</p>
+    <p><span style="font-weight: bold;">¿Cómo puedo responder autónomamente?</span> <br>Mejora continua y adaptativa</p>
   </div>
   </v-click>
 </div>
