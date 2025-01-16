@@ -185,7 +185,7 @@ h1 {
 
 
 ---
-transition: slide-left
+transition: fade-out
 ---
 
 # Niveles de Madurez de la Academia acatech
@@ -323,3 +323,95 @@ h1 {
   }
 </style>
 
+---
+transition: slide-right
+---
+
+# ¿Qué es AICA+?
+
+<div class="container mx-auto px-4 mt-10">
+  <p class="text-gray-700 mb-6">
+    AICA+ es una empresa líder en el sector farmacéutico, comprometida con la innovación
+    y la excelencia en la producción de medicamentos. Nuestra misión es mejorar la vida
+    de las personas a través de soluciones farmacéuticas de alta calidad.
+  </p>
+
+  <div class="grid grid-cols-3 gap-6">
+    <div 
+      v-motion 
+      :initial="{ scale: 0.8, opacity: 0 }" 
+      :enter="{ scale: 1, opacity: 1, transition: { delay: 300 } }" 
+      class="feature-card"
+      v-click="{ scale: 1.05 }"
+    >
+      <div class="icon">🔬</div>
+      <h3>Innovación</h3>
+      <p>Desarrollo continuo de nuevas soluciones y tecnologías</p>
+    </div>
+    <div 
+      v-motion 
+      :initial="{ scale: 0.8, opacity: 0 }" 
+      :enter="{ scale: 1, opacity: 1, transition: { delay: 400 } }" 
+      class="feature-card"
+      v-click="{ scale: 1.05 }"
+    >
+      <div class="icon">✨</div>
+      <h3>Calidad</h3>
+      <p>Compromiso con los más altos estándares de la industria</p>
+    </div>
+    <div 
+      v-motion 
+      :initial="{ scale: 0.8, opacity: 0 }" 
+      :enter="{ scale: 1, opacity: 1, transition: { delay: 500 } }" 
+      class="feature-card"
+      v-click="{ scale: 1.05 }"
+    >
+      <div class="icon">📦</div>
+      <h3>+190 Productos</h3>
+      <p>Amplia gama de soluciones farmacéuticas disponibles</p>
+    </div>
+  </div>
+</div>
+
+<footer style="color: #05d8f3; font-weight: bold;" class="fade-in abs-b m-6 text-center">
+  © 2025 <a href="https://www.aica.cu" target="_blank">AICA+</a>
+</footer>
+
+<style>
+.feature-card {
+  background: rgba(0, 151, 167, 0.05);
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.feature-card h3 {
+  color: #0097a7;
+  margin-bottom: 0.5rem;
+}
+
+.feature-card p {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+h1 {
+    background-color: #81dbff;
+    background-image: linear-gradient(45deg, #89effd 20%, #46c0ed 50%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+</style>
