@@ -415,3 +415,94 @@ h1 {
     -moz-text-fill-color: transparent;
   }
 </style>
+
+---
+transition: slide-down
+---
+
+# Ecosistema AICA+ 4.0
+
+<div class="flex justify-center items-center">
+  <div class="card mt-5">
+    <img
+      src="/ecosystem.webp"
+      alt="Ecosistema AICA+"
+      class="card-image"
+    />
+  </div>
+</div>
+
+<footer style="color: #05d8f3; font-weight: bold;" class="fade-in abs-b m-6 text-center">
+  © 2025 <a href="https://www.aica.cu" target="_blank">AICA+</a>
+</footer>
+
+<style>
+.card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card-image {
+  width: 500px;
+  height: auto;
+  border-radius: 12px;
+}
+
+h1 {
+    background-color: #81dbff;
+    background-image: linear-gradient(45deg, #89effd 20%, #46c0ed 50%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+</style>
+
+
+---
+transition: fade
+---
+
+# Proyectos AICA+ 4.0
+
+<div class="flex justify-center items-center">
+  <div class="card mt-5">
+    <img
+      src="/aica-projects.webp"
+      alt="Ecosistema AICA+"
+      class="card-image"
+    />
+  </div>
+</div>
+
+<footer style="color: #05d8f3; font-weight: bold;" class="fade-in abs-b m-6 text-center">
+  © 2025 <a href="https://www.aica.cu" target="_blank">AICA+</a>
+</footer>
+
+<style>
+.card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card-image {
+  width: 500px;
+  height: auto;
+  border-radius: 12px;
+}
+
+h1 {
+    background-color: #81dbff;
+    background-image: linear-gradient(45deg, #89effd 20%, #46c0ed 50%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+</style>
