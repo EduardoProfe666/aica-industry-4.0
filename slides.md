@@ -1,19 +1,17 @@
 ---
 title: AICA+ Industria 4.0
+titleTemplate: '%s - Presentación'
 description: Presentación del proyecto de Industria 4.0 de los Laboratorios Farmacéuticos AICA+
-head:
-  - <link rel="icon" href="/favicon.ico" />
-  - <meta property="og:title" content="AICA+ Industria 4.0" />
-  - <meta property="og:description" content="Presentación del proyecto de Industria 4.0 de los Laboratorios Farmacéuticos AICA+" />
-  - <meta property="og:image" content="https://raw.githubusercontent.com/EduardoProfe666/aica-industry-4.0/refs/heads/main/public/team.webp" />
-  - <meta property="og:url" content="https://presentacion-aica-industria4.netlify.app" />
+keywords: aica+,industria4.0
+info: Presentación del proyecto de Industria 4.0 de los Laboratorios Farmacéuticos AICA+
+author: AICA+
+favicon: /favicon.ico
 
 theme: seriph
 
 highlighter: shiki
 lineNumbers: false
-info: |
-  ## Industria 4.0 en los Laboratorios Farmacéuticos AICA+
+
 class: text-center
 drawings:
   persist: false
@@ -80,7 +78,7 @@ Casi Ing. Eduardo Alejandro Gonzalez Martell
 </footer>
 
 ---
-transition: slide-left
+transition: slide-up
 ---
 
 # Desarrollo de la Industria 4.0
@@ -187,7 +185,7 @@ h1 {
 
 
 ---
-transition: slide-up
+transition: slide-left
 ---
 
 # Niveles de Madurez de la Academia acatech
