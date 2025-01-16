@@ -4,7 +4,12 @@
     <img src="/public/aica-logo.png" alt="AICA Logo"/>
 </div>
 
+### 🚀 Deploy on Netlify
+
+App is deployed on [this link](https://presentacion-aica-industria4.netlify.app/) via Netlify.
+
 ### 🚀 Getting Started
+
 To start the slide show:
 
 - `npm install`

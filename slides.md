@@ -435,6 +435,32 @@ h1 {
 </style>
 
 ---
+transition: fade
+---
+
+# Video Promocional de Laboratorios Farmacéuticos AICA+
+
+<div class="flex justify-center">
+  <Youtube id="BEjR-ZaOJFY" width="550" height="350" />
+</div>
+
+<footer style="color: #05d8f3; font-weight: bold;" class="fade-in abs-b m-6 text-center">
+  © 2025 <a href="https://www.aica.cu" target="_blank">AICA+</a>
+</footer>
+
+<style>
+h1 {
+    background-color: #81dbff;
+    background-image: linear-gradient(45deg, #89effd 20%, #46c0ed 50%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+</style>
+
+---
 transition: slide-down
 ---
 
